@@ -1,0 +1,12 @@
+{
+  "name": "Slack circle",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Slackを丸くします。",
+  "content_scripts": [{
+    "matches": ["https://app.slack.com/*"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
